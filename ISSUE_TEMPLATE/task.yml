@@ -1,0 +1,43 @@
+name: Task
+description: General work item — refactor, chore, test coverage, CI, or other maintenance
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for work that isn't a feature, bug, or documentation update.
+        Add labels to classify further: `refactor`, `chore`, `test`, `ci`, etc.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What needs to be done and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Background information, links to related issues or discussions
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this task is complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: repos
+    attributes:
+      label: Affected Package
+      options:
+        - label: "@centralping/ergo"
+        - label: "@centralping/ergo-router"
+        - label: "@centralping/json-api-query"
+        - label: "Website (centralping.github.io)"

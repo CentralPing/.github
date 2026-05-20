@@ -1,7 +1,8 @@
 # Contributing to CentralPing
 
 Thank you for your interest in contributing. This guide covers the process for
-all CentralPing repositories (ergo, ergo-router, json-api-query).
+all CentralPing repositories (@centralping/ergo, @centralping/ergo-router,
+@centralping/json-api-query).
 
 ## Reporting Bugs
 
@@ -66,6 +67,17 @@ All repositories enforce:
 - **Signed commits** (GPG or SSH)
 - **Required CI checks** (Node.js 22 and 24)
 - **Linear history** (squash or rebase merge only, no merge commits)
+
+## Package Namespace
+
+All CentralPing packages are published under the `@centralping` npm scope:
+
+- [`@centralping/ergo`](https://github.com/CentralPing/ergo) — Fast Fail REST
+  API middleware toolkit
+- [`@centralping/ergo-router`](https://github.com/CentralPing/ergo-router) —
+  REST-compliant router
+- [`@centralping/json-api-query`](https://github.com/CentralPing/json-api-query)
+  — JSON:API query parameter validator
 
 ## License
 

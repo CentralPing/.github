@@ -22,11 +22,11 @@ Please **do not** open a public issue for security vulnerabilities.
 
 ## Supported Versions
 
-| Project        | Supported Versions |
-| -------------- | ------------------ |
-| ergo           | Latest minor       |
-| ergo-router    | Latest minor       |
-| json-api-query | Latest minor       |
+| Package                       | Supported Versions |
+| ----------------------------- | ------------------ |
+| @centralping/ergo             | Latest minor       |
+| @centralping/ergo-router      | Latest minor       |
+| @centralping/json-api-query   | Latest minor       |
 
 Only the latest minor release of each project receives security updates.
 
